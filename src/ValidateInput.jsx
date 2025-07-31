@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 const ValidateInput = () => {
   let inputBox = 5;
-  const [inputText, setInputText] = useState(new Array(inputBox).fill("1"));
+  const [inputText, setInputText] = useState(new Array(inputBox).fill(""));
   const refArr = useRef([]);
 
   useEffect(() => {
